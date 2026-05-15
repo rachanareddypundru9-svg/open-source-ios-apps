@@ -13,6 +13,7 @@ apps.each_with_index do |a, i|
 
   begin
     r = `#{command}`
+    
   rescue e
     r = e
   end
